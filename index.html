@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio of Nguyen Dang Minh Quan, an AI Engineer Intern focused on LLM systems, Agentic RAG, streaming data pipelines, and machine learning."
+    />
+    <title>Portfolio | Nguyen Dang Minh Quan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Back to top">NDMQ</a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle theme">
+        <span aria-hidden="true">◐</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">AI Engineer Intern / LLM Systems</p>
+          <h1>Nguyen Dang Minh Quan</h1>
+          <p class="hero-text">
+            I build applied AI systems across Agentic RAG, vector search, real-time data pipelines,
+            and machine learning. My work combines practical deployment, data engineering, and LLM
+            workflows for production-oriented problems.
+          </p>
+
+          <div class="hero-actions" aria-label="Featured links">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="Nguyen_Dang_Minh_Quan_CV_UIT.pdf" download>Download CV</a>
+            <a class="button secondary" href="https://github.com/quan16369" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+            <a
+              class="button secondary"
+              href="https://www.linkedin.com/in/nguyen-dang-minh-quan16/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </div>
+
+          <dl class="quick-stats" aria-label="Profile highlights">
+            <div>
+              <dt>Top 6</dt>
+              <dd>Kaggle / 617</dd>
+            </div>
+            <div>
+              <dt>3.3/4.0</dt>
+              <dd>UIT GPA</dd>
+            </div>
+            <div>
+              <dt>725</dt>
+              <dd>TOEIC</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-panel" aria-label="Profile summary graphic">
+          <div class="profile-art">
+            <div class="profile-card">
+              <span class="avatar-mark">MQ</span>
+              <div>
+                <strong>AI Engineer Intern</strong>
+                <p>RAG, LLM deployment, streaming data, forecasting</p>
+              </div>
+            </div>
+            <div class="code-window" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+              <pre>const quan = {
+  role: "AI Engineer Intern",
+  focus: ["Agentic RAG", "LLM", "Big Data"],
+  stack: ["Python", "PyTorch", "Kafka", "Docker"]
+};</pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-band" aria-label="Short introduction">
+        <p>
+          Based in Ho Chi Minh City, Vietnam. Currently studying Information Technology at the
+          University of Information Technology, VNU-HCM, and working on applied AI systems.
+        </p>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Projects</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual visual-a" aria-hidden="true">
+              <span>Streaming ML</span>
+            </div>
+            <div class="project-content">
+              <h3>Coinbase Streaming Data Pipeline</h3>
+              <p>
+                Built a real-time cryptocurrency price pipeline using the Coinbase API, Kafka, and
+                Spark. Stored high-frequency data in Cassandra, monitored services with Grafana,
+                and trained an LSTM forecasting model that achieved R2 = 0.9677.
+              </p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>Python</li>
+                <li>Go</li>
+                <li>Kafka</li>
+                <li>Spark</li>
+                <li>PyTorch</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/quan16369" target="_blank" rel="noreferrer">GitHub Profile</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-b" aria-hidden="true">
+              <span>LLM Pricing</span>
+            </div>
+            <div class="project-content">
+              <h3>Deals Hunting</h3>
+              <p>
+                Developed a system that detects online deals and notifies users in real time.
+                Fine-tuned LLaMA 3.1 8B for price prediction with Top-K decoding and weighted
+                averaging, outperforming LightGBM, CatBoost, and Random Forest baselines.
+              </p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>Python</li>
+                <li>Hugging Face</li>
+                <li>OpenAI</li>
+                <li>Modal</li>
+                <li>Transformers</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/quan16369" target="_blank" rel="noreferrer">GitHub Profile</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-c" aria-hidden="true">
+              <span>Agentic RAG</span>
+            </div>
+            <div class="project-content">
+              <h3>Invoice Query Agent</h3>
+              <p>
+                Built a FastAPI RESTful service for an Agentic RAG system handling complex invoice
+                queries. Combined semantic vector search, structured SQL queries, and OpenSearch
+                entity resolution for a bilingual English/Japanese workflow.
+              </p>
+              <ul class="tag-list" aria-label="Technologies">
+                <li>FastAPI</li>
+                <li>LangGraph</li>
+                <li>Qdrant</li>
+                <li>OpenSearch</li>
+                <li>Docker</li>
+              </ul>
+              <p class="project-note">AI Engineer Intern project at TGL Solution.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Capabilities</p>
+          <h2>Technical Skills</h2>
+        </div>
+
+        <div class="skill-columns">
+          <div>
+            <h3>AI & Machine Learning</h3>
+            <ul class="check-list">
+              <li>Machine Learning, Deep Learning</li>
+              <li>Time Series Forecasting, Recommender Systems</li>
+              <li>Keras, PyTorch, Transformers</li>
+            </ul>
+          </div>
+          <div>
+            <h3>LLM & Retrieval</h3>
+            <ul class="check-list">
+              <li>LangChain, LangGraph</li>
+              <li>Qdrant, OpenSearch, vector search</li>
+              <li>Agentic RAG and LLM deployment</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Data & DevOps</h3>
+            <ul class="check-list">
+              <li>Spark, Kafka, Hadoop</li>
+              <li>MSSQL, PostgreSQL, Neo4j</li>
+              <li>Docker, Kubernetes, Prometheus, Grafana</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section timeline-section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Background</p>
+          <h2>Experience & Education</h2>
+        </div>
+
+        <div class="timeline">
+          <article>
+            <time datetime="2025-12">Dec 2025 - Present</time>
+            <div>
+              <h3>AI Engineer Intern, TGL Solution</h3>
+              <p>
+                Built an Agentic RAG service with FastAPI, LangGraph, Gemini, Qdrant, OpenSearch,
+                SQL, and Docker. Focused on complex invoice queries and bilingual English/Japanese
+                information retrieval.
+              </p>
+            </div>
+          </article>
+          <article>
+            <time datetime="2024-12">Dec 2024 - Mar 2025</time>
+            <div>
+              <h3>Kaggle Konwinski Prize, Gold Medalist</h3>
+              <p>
+                Ranked Top 6 out of 617 teams by building a Select-Patch-Verify-Choose pipeline
+                with open-weight LLMs via vLLM to automatically fix real GitHub issues.
+              </p>
+            </div>
+          </article>
+          <article>
+            <time datetime="2022-10">Oct 2022 - Present</time>
+            <div>
+              <h3>University of Information Technology, VNU-HCM</h3>
+              <p>
+                Bachelor of Information Technology student with GPA 3.3/4.0. Certifications:
+                IELTS 5.5 and TOEIC 725.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Open to AI Engineer internship and junior opportunities.</h2>
+          <p>
+            Reach out by email, phone, GitHub, or LinkedIn. My resume is available as a PDF download.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:ndmqan16@gmail.com">ndmqan16@gmail.com</a>
+          <a href="tel:+84967106719">0967106719</a>
+          <a href="https://github.com/quan16369" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/nguyen-dang-minh-quan16/" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+          <a href="Nguyen_Dang_Minh_Quan_CV_UIT.pdf" download>Download CV</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Nguyen Dang Minh Quan. Built with HTML, CSS and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
