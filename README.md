@@ -6,7 +6,7 @@ This is a static English portfolio built with HTML, CSS, and JavaScript. It is b
 
 1. Open `index.html` in a browser and check the layout.
 2. Add direct project repository/demo links if the repositories are public.
-3. Keep `Nguyen_Dang_Minh_Quan_CV_UIT.pdf` in the same folder so the Download CV button works.
+3. Keep `Nguyen_Dang_Minh_Quan_CV_UIT.pdf` in the same folder so the resume link works.
 4. Deploy the folder to GitHub Pages, Vercel, or Netlify to get a public URL.
 
 ## Quick deploy with GitHub Pages
